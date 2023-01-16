@@ -46,6 +46,22 @@ li:hover .dropdown-toggle::after {
     background-color: hsl(15deg 86% 43%);
 }
 
-.jumbotron-carousel img .border {
-    border-width: 5px;
+/* HERO PRODUCT  */
+
+#hero-product {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    min-height: 60vh;
+    background-position: center;
+    background-size: cover;
 }
+
+#hero-product button {
+    background-color: hsl(15deg 86% 43%);
+}
+
+#hero-product img {
+    width: 60%;
+    max-width: 300px;
+}
+
+/* NUOVE USCITE  */
