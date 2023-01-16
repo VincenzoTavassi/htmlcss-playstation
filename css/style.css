@@ -1,0 +1,47 @@
+/* GENERICS  */
+
+img {
+    max-width: 100%;
+}
+
+/* HEADER  */
+
+#top-logo>img {
+    max-width: 150px;
+}
+
+header nav li {
+    margin-left: 10px;
+}
+
+header .dropdown-toggle::after {
+    content: url(../img/chevron-down-solid.svg);
+    width: 15px;
+    border: 0;
+    vertical-align: middle;
+}
+
+li:hover .dropdown-toggle::after {
+    content: url(../img/chevron-down-solid-hover.svg);
+}
+
+#search {
+    width: 30px;
+    margin-right: 1rem;
+}
+
+.jumbotron-bg-img {
+    background-image: url(../img/jumbo-bg.png);
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.jumbotron-text>img {
+    width: 60%;
+    min-width: 200px;
+}
+
+#jumbotron button {
+    background-color: hsl(15deg 86% 43%);
+}
