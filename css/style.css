@@ -64,4 +64,18 @@ li:hover .dropdown-toggle::after {
     max-width: 300px;
 }
 
-/* NUOVE USCITE  */
+/* PLAYSTATION PLUS */
+
+#ps-plus-logo {
+    min-width: 250px;
+}
+
+/* PS NOW  */
+
+#ps-now {
+    background-color: hsl(230deg 46% 16%);
+}
+
+#ps-now-logo {
+    min-width: 250px;
+}
