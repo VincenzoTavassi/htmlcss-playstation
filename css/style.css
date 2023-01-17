@@ -1,6 +1,14 @@
 /* -------------------------------
 ++++++++++ BONUS VERSION ++++++++++
 ---------------------------------- */
+/* BONUS CAROUSEL IMAGE STYLE  */
+
+.carousel img {
+    height: 70vh;
+    object-fit: cover;
+    object-position: center;
+}
+
 /* BONUS BUTTON RESET  */
 
 .btn-border-reset {
@@ -106,6 +114,8 @@ li:hover .dropdown-toggle::after {
 .jumbotron-text>img {
     width: 60%;
     min-width: 200px;
+    max-width: 300px;
+    height: auto;
 }
 
 .jumbotron-carousel [class^="col"]:hover img {
