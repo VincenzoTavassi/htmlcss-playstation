@@ -108,6 +108,23 @@ li:hover .dropdown-toggle::after {
     min-width: 200px;
 }
 
+.jumbotron-carousel [class^="col"]:hover img {
+    animation-duration: 1.5s;
+    animation-name: moveup;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+}
+
+@keyframes moveup {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-20%);
+    }
+}
+
 /* PRODUCTS SECTION  */
 
 #carousel .col {
