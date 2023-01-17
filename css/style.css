@@ -1,3 +1,58 @@
+/* -------------------------------
+++++++++++ BONUS VERSION ++++++++++
+---------------------------------- */
+/* BONUS BUTTON RESET  */
+
+.btn-border-reset {
+    border: 2px solid transparent !important;
+}
+
+.btn-border-reset:hover {
+    border-color: white !important;
+    outline: 2px solid black !important;
+}
+
+.btn-acquista {
+    background-color: hsl(15deg 86% 43%);
+    border: 2px solid hsl(15deg 86% 43%) !important;
+    outline: 2px solid hsl(15deg 86% 43%) !important;
+}
+
+.btn-acquista:hover {
+    background-color: hsl(15deg 86% 43%);
+    border: 2px solid black !important;
+    outline: 2px solid hsl(15deg 86% 43%) !important;
+}
+
+/* ---- BONUS HEADER MENU ----  */
+
+.dropdown {
+    position: static;
+}
+
+.dropdown-menu {
+    width: 100%;
+    border: none;
+    margin-top: 0 !important;
+    border-radius: 0;
+}
+
+.dropdown-icons {
+    list-style: none;
+}
+
+.sub-links {
+    list-style-type: disc;
+}
+
+.sub-links li::marker {
+    color: #006FD1;
+}
+
+/* ---------------------------------
++++++++++ STANDARD VERSION +++++++++
+------------------------------------ */
+
 /* GENERICS  */
 
 img {
@@ -7,6 +62,7 @@ img {
 main {
     padding-top: 136px;
 }
+
 
 /* HEADER  */
 
@@ -52,8 +108,17 @@ li:hover .dropdown-toggle::after {
     min-width: 200px;
 }
 
-#jumbotron button {
-    background-color: hsl(15deg 86% 43%);
+/* PRODUCTS SECTION  */
+
+#carousel .col {
+    border-bottom: 3px solid transparent;
+    padding-bottom: 1rem;
+}
+
+#carousel .col:hover {
+    border-bottom: 3px solid #0D6EFD;
+    font-weight: 600;
+    cursor: pointer;
 }
 
 /* HERO PRODUCT  */
@@ -63,10 +128,6 @@ li:hover .dropdown-toggle::after {
     min-height: 60vh;
     background-position: center;
     background-size: cover;
-}
-
-#hero-product button {
-    background-color: hsl(15deg 86% 43%);
 }
 
 #hero-product img {
