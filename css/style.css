@@ -10,6 +10,10 @@ img {
     max-width: 150px;
 }
 
+#brand-logo {
+    filter: invert(25%) sepia(97%) saturate(1945%) hue-rotate(193deg) brightness(94%) contrast(101%);
+}
+
 header nav li {
     margin-left: 10px;
 }
@@ -78,4 +82,11 @@ li:hover .dropdown-toggle::after {
 
 #ps-now-logo {
     min-width: 250px;
+}
+
+/* FOOTER  */
+
+#footer-logo {
+    filter: invert(99%) sepia(1%) saturate(11%) hue-rotate(181deg) brightness(102%) contrast(100%);
+    width: 150px;
 }
