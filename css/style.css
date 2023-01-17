@@ -4,6 +4,10 @@ img {
     max-width: 100%;
 }
 
+main {
+    padding-top: 136px;
+}
+
 /* HEADER  */
 
 #top-logo>img {
@@ -33,6 +37,8 @@ li:hover .dropdown-toggle::after {
     width: 30px;
     margin-right: 1rem;
 }
+
+/* JUMBOTRON  */
 
 .jumbotron-bg-img {
     background-image: url(../img/jumbo-bg.png);
@@ -84,9 +90,33 @@ li:hover .dropdown-toggle::after {
     min-width: 250px;
 }
 
+/* SOCIAL  */
+
+#social img {
+    max-width: 200px;
+}
+
 /* FOOTER  */
 
-#footer-logo {
+footer {
+    background-color: hsl(214deg 100% 31%);
+}
+
+#footer-ps-logo {
     filter: invert(99%) sepia(1%) saturate(11%) hue-rotate(181deg) brightness(102%) contrast(100%);
     width: 150px;
+}
+
+#language-globe {
+    width: 20px;
+    margin-right: 10px;
+}
+
+#footer-sony-logo {
+    max-width: 150px;
+    margin-top: 50px;
+}
+
+footer ul li {
+    list-style: none;
 }

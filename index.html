@@ -18,7 +18,7 @@
 
 <body>
     <!-- HEADER START -->
-    <header>
+    <header class="fixed-top">
         <div id="top-logo" class="p-3 text-end bg-black">
             <img src="./img/sony_logo.svg" alt="logo">
         </div>
@@ -142,7 +142,10 @@
                 </div>
             </div>
         </nav>
-        <!-- FINE NAVBAR  -->
+    </header>
+    <!-- HEADER END -->
+    <!-- FINE NAVBAR  -->
+    <main>
         <!-- JUMBOTRON SECTION  -->
         <section id="jumbotron">
             <div class="jumbotron-bg-img d-flex align-items-end">
@@ -183,9 +186,6 @@
                 </div>
             </div>
         </section>
-    </header>
-    <!-- HEADER END -->
-    <main>
         <!-- PRODUCTS SECTION START -->
         <section id="products" class="text-center my-5">
             <div class="container">
@@ -391,16 +391,16 @@
         </section>
         <!-- PLAY STATION NOW END  -->
         <!-- SOCIAL SECTION START  -->
-        <section id="social" class="my-5">
+        <section id="social" class="my-5 text-center">
             <div class="container">
                 <h2 class="display-5 fw-semibold">Seguici sui social media</h2>
-                <div class="row my-4 g-5">
-                    <div class="col-6 col-sm-3"><img src="./img/instagram.jpg" alt="">
+                <div class="row my-4 g-3 justify-content-center">
+                    <div class="col-6 col-sm-auto"><img src="./img/instagram.jpg" alt="">
                     </div>
-                    <div class="col-6 col-sm-3"><img src="./img/facebook.jpg" alt=""></div>
-                    <div class="col-6 col-sm-3"><img src="./img/twitter.jpg" alt="">
+                    <div class="col-6 col-sm-auto"><img src="./img/facebook.jpg" alt=""></div>
+                    <div class="col-6 col-sm-auto"><img src="./img/twitter.jpg" alt="">
                     </div>
-                    <div class="col-6 col-sm-3"><img src="./img/youtube.png" alt="">
+                    <div class="col-6 col-sm-auto"><img src="./img/youtube.png" alt="">
                     </div>
                 </div>
             </div>
@@ -409,18 +409,55 @@
         <!-- SOCIAL SECTION END  -->
     </main>
     <!-- FOOTER START  -->
-    <footer class="bg-primary my-5">
+    <footer class="mt-5 py-5 text-white">
         <div class="container">
             <nav class="row">
-                <div class="col-12 col-lg-6"><img id="footer-logo" src="./img/play_logo.svg" alt=""></div>
+                <div class="col-12 col-lg-6"><img id="footer-ps-logo" src="./img/play_logo.svg" alt="">
+                    <p>
+                        <img id="language-globe" src="./img/language-globe.svg" alt="">Country / region: Italy
+                    </p>
+
+                </div>
                 <div class="col-12 col-lg-6">
                     <div class="row">
-                        <div class="col-12 col-md-4"></div>
-                        <div class="col-12 col-md-4"></div>
-                        <div class="col-12 col-md-4"></div>
+                        <div class="col-12 col-md-4">
+                            <ul>
+                                <li>link</li>
+                                <li>link</li>
+                                <li>link</li>
+                                <li>link</li>
+                                <li>link</li>
+                                <li>link</li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <ul>
+                                <li>link</li>
+                                <li>link</li>
+                                <li>link</li>
+                                <li>link</li>
+                                <li>link</li>
+                                <li>link</li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <ul>
+                                <li>link</li>
+                                <li>link</li>
+                                <li>link</li>
+                                <li>link</li>
+                                <li>link</li>
+                                <li>link</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-6"></div>
+                <div class="col-12 col-lg-6">
+                    <img id="footer-sony-logo" src="./img/sie-logo.svg" alt="">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic earum nostrum
+                        voluptate accusantium repellat esse tenetur, provident nesciunt. Excepturi quidem quod rem unde
+                        deleniti corporis natus cum nemo ipsum saepe?</p>
+                </div>
             </nav>
         </div>
 
